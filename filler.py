@@ -11,7 +11,7 @@ NAME_FONT_NAME = "Helvetica-Bold"  # Bold looks better for certificates
 NAME_COLOR = (0, 0, 0)  # Black
 
 # Create the output directory if it doesn't exist
-output_dir = "certificates"
+output_dir = "certificates_org"
 os.makedirs(output_dir, exist_ok=True)
 
 # Read the CSV file
